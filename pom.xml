@@ -8,6 +8,12 @@
     <artifactId>Task2_University</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.3.1.RELEASE</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
